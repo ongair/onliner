@@ -15,7 +15,7 @@ module Devise
               end
             end
 
-            self.find( array_ids )
+            self.where(id: array_ids )
           end
         end
       end
